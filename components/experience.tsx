@@ -17,7 +17,7 @@ export default function Experience() {
   const { theme } = useTheme();
 
   return (
-    <section id="Experience" ref={ref}>
+    <section id="experience" ref={ref}>
         <SectionHeading>My experience</SectionHeading>
         <VerticalTimeline lineColor=''>
             {
