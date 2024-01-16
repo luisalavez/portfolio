@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "Web developer",
     location: "Global Hawk Insurance, Tijuana, Mexico",
     description:
-      `Working with asp.net creating, maintaining and supporting web APIs, using the repository pattern, Business layer, data access layer and entity
+      `Working with asp.net creating, maintaining and supporting web APIs, using the repository pattern, layer arquitecture and entity
       framework for accounting modules, quotes and policies.`,
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
@@ -100,8 +100,8 @@ export const skillsData = [
   "Bootstrap",
   "Express",
   "Framer Motion",
+  "Zustand",
   "Knex",
-  "data-transfer-object",
   "redis",
   ".Net",
   "C#",
