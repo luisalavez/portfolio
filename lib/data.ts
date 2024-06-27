@@ -73,11 +73,11 @@ export const experiencesData = [
     title: "Full Stack Developer",
     location: "Definity first, Tijuana, Mexico",
     description:
-      `Update and support existing Angular applications by handling responsive designs and deployment of said applications using AWS services such as S3, CloudFront and CloudWatch for monitoring. 
-      Creation and update of lambdas using node.js with typescript for application consumption and using terraform for configuration and setting of environment variables. 
-      Update and support for node.js microservices with typescript, using
-      Azure pipelines for the configuration of environment variables and
-      deployments to EKS.`,
+      `Update and support existing Angular applications by handling responsive designs and deployment of spa applications using AWS services such as S3, CloudFront and CloudWatch for monitoring. 
+       Creation and update of lambdas using node.js with typescript for application consumption and using terraform for configuration and setting of environment variables.
+       Update and support for node.js microservices with typescript. Create microservices with .Net core using Layer architecture and CQRS with Dapper as ORM. 
+       Creating and updating pipelines using ADO's Pipelines and Repos services.
+       Creation of solution proposals for development requirements.`,
     icon: React.createElement(CgWorkAlt),
     date: "2022 - Present",
   },
@@ -104,6 +104,7 @@ export const skillsData = [
   "Knex",
   "redis",
   ".Net",
+  "Asp.Net core",
   "C#",
   "Entity framwork",
   "SignalR",
@@ -114,6 +115,7 @@ export const skillsData = [
   "Jira",
   "Swagger",
   "Postman",
+  "XUnit",
   "Kubernetes",
   "Docker"
 ] as const;
