@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Jr Web Developer",
     location: "Bourns de Mexico, Tijuana, Mexico",
     description:
-      "Developed a monitoring system using ASP.NET MVC (Razor) for production tracking and equipment failure reporting. Built REST endpoints and UI views with AngularJS, jQuery and Bootstrap. Integrated real-time updates using SignalR.",
+      "Developed a monitoring system using ASP.NET MVC (Razor) for production tracking and equipment failure reporting. Built custom REST endpoints and UI views using AngularJS, jQuery and Bootstrap. Designed relational database schemas and tables in SQL Server with constraints and indexes. Integrated real-time updates using SignalR to display live production data. Consumed external systems to retrieve machine and personnel information.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2016 - Aug 2018",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Web Developer",
     location: "Baja Logics, Tijuana, Mexico",
     description:
-      "Developed REST APIs using ASP.NET Core and C# to deliver KPI metrics such as efficiency and material quality. Created stored procedures in OracleDB and implemented backend logic using layered architecture.",
+      "Developed REST APIs using ASP.NET Core and C# to deliver KPI metrics such as efficiency and material quality. Created stored procedures in OracleDB for API data consumption. Implemented backend logic using layered architecture and version control with TortoiseSVN.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2018 - Nov 2018",
   },
@@ -62,7 +62,7 @@ export const experiencesData = [
     title: "Web Developer",
     location: "Global Hawk Insurance, Tijuana, Mexico",
     description:
-      "Built REST APIs using ASP.NET Core and C# for vehicle policy tracking. Developed front-end features with Angular and React js. Deployed applications on Azure App Services integrating Azure SQL Server, Blob Storage and Key Vault.",
+      "Built REST APIs using ASP.NET Core and C# with layered architecture for vehicle policy tracking. Developed front-end features using Angular and React js to manage forms and insurance data. Created endpoints for managing coverage catalogs, vehicle types and customer information. Deployed applications using Azure App Services and integrated Azure SQL Server, Blob Storage and Key Vault. Used Entity Framework and GraphQL in integrations and reporting.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2019 - Nov 2021",
   },
@@ -70,7 +70,7 @@ export const experiencesData = [
     title: "Full Stack Developer",
     location: "Definity First, Tijuana, Mexico",
     description:
-      "Developed loan management and payment tracking applications using .NET Core, C#, React js and Angular. Built microservices with Node.js, ASP.NET Core and Python following CQRS. Deployed AWS Lambdas via Terraform and implemented CI/CD pipelines with Azure DevOps.",
+      "Developed loan management systems and payment tracking applications using .NET Core, C#, React js and Angular. Built and maintained microservices using Node.js, ASP.NET Core and Python following CQRS. Created and updated RESTful endpoints, integrating with SQL Server, Entity Framework and Dapper, using indexing and constraints for performance. Built AWS Lambdas using Node.js and TypeScript, deploying via Terraform and API Gateway, monitoring CloudWatch with relational databases hosted on AWS RDS. Implemented API documentation using Swagger/OpenAPI. Designed and deployed CI/CD pipelines with Azure DevOps and managed containerized services with Kubernetes. Wrote and executed unit tests to ensure quality across services. Actively participated in Scrum ceremonies and used Jira to manage stories.",
     icon: React.createElement(CgWorkAlt),
     date: "Feb 2022 - Jun 2024",
   },
@@ -78,7 +78,7 @@ export const experiencesData = [
     title: "Senior Software Developer",
     location: "FPT Software, Tijuana, Mexico",
     description:
-      "Built and maintained REST APIs with ASP.NET Core and C#. Developed Angular UI components for hospital patient questionnaire reports. Provisioned AWS infrastructure (S3, Cognito, Lambda, DynamoDB) using AWS CDK. Maintained code quality with NUnit, SonarCloud and GitHub Actions.",
+      "Built and maintained REST APIs using ASP.NET Core and C# with layered architecture. Developed UI components with Angular for visualizing reports from hospital patient questionnaires. Enhanced endpoints in .NET Core to expose additional data, update search filters and optimize SQL Server queries. Defined and provisioned AWS infrastructure using AWS CDK including S3, Cognito, Lambda and DynamoDB. Created and executed unit tests with NUnit, contributing to code quality and maintainability. Implemented API documentation using Swagger/OpenAPI. Collaborated on code reviews using GitHub Actions and maintained high standards with SonarCloud. Actively participated in Scrum ceremonies and used Jira to manage stories.",
     icon: React.createElement(CgWorkAlt),
     date: "Jul 2024 - Jan 2025",
   },
@@ -86,7 +86,7 @@ export const experiencesData = [
     title: "Full Stack Developer",
     location: "Inteligente.IO, Tijuana, Mexico",
     description:
-      "Migrating modules from a legacy system using React js with Redux-Saga and feature-based architecture. Updating Go API endpoints with clean architecture and GORM. Raising code coverage with Jest and Selenium e2e tests. Implementing CI/CD through GitHub Actions.",
+      "Migrating modules from a legacy system using React js with Redux-Saga and applying feature-based architecture to reduce technical debt. Updating Go API endpoints with clean architecture and GORM for CRUD operations. Raising code coverage with Jest and Selenium e2e tests. Using GitHub for version control and CI/CD through GitHub Actions to streamline deployments. Actively participating in Scrum ceremonies and using Jira to manage stories.",
     icon: React.createElement(FaReact),
     date: "Apr 2025 - Present",
   },
