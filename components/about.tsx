@@ -18,17 +18,14 @@ export default function About() {
         id="about">
         <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
-        Before graduating with a degree in{" "}
-        <span className="font-medium">computer systems engineer</span>, I started working as a developer 
-        in an automotive company, and from there I have worked in other companies related to insurance and loans;
-        <span className="font-medium">my main focus is web development</span>.{" "}<br/>
-        My core stack
-        is{" "}
+        I'm a{" "}
+        <span className="font-medium">Full-Stack Engineer with over 9 years of experience</span> specializing in the design, development, and maintenance of web applications for the{" "}
+        <span className="font-medium">financial, insurance, and business services</span> industries.{" "}<br/>
+        My core stack is{" "}
         <span className="font-medium">
-          .Net, Angular , React, Next.js, Node.js, SQL Server and AWS Services. 
+          React js, Angular, Node.js, .NET Core, Go, Python, SQL Server, PostgreSQL, AWS and Azure.
         </span><br/>
-        I am also familiar with TypeScript and little bit of Azure. I am always looking to
-        learn new technologies.
+        I'm always looking to learn new technologies and deliver scalable, efficient solutions.
       </p>
 
       <p>

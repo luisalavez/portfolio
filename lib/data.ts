@@ -35,87 +35,106 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Computer Science Engineer",
-    location: "Tijuana, Mexico",
+    title: "B.Sc. in Computer Science",
+    location: "Instituto Tecnológico de Tijuana, Mexico",
     description:
-      "I graduated from Instituto Tecnológico de Tijuana. I already have a job as a jr web developer.",
+      "Graduated with a degree in Computer Science. Started working as a Jr Web Developer before graduation.",
     icon: React.createElement(LuGraduationCap),
-    date: "2017",
+    date: "2012 - 2017",
   },
   {
-    title: "Jr web developer",
+    title: "Jr Web Developer",
     location: "Bourns de Mexico, Tijuana, Mexico",
     description:
-      `Updates on a web application with ASP.NET and MVC for the visualization of the production of lines and work orders, performance graphs using
-      the highcharts.js library, downtimes, and generation of reports .`,
+      "Developed a monitoring system using ASP.NET MVC (Razor) for production tracking and equipment failure reporting. Built REST endpoints and UI views with AngularJS, jQuery and Bootstrap. Integrated real-time updates using SignalR.",
     icon: React.createElement(CgWorkAlt),
-    date: "2016 - 2018",
+    date: "Aug 2016 - Aug 2018",
   },
   {
     title: "Web Developer",
-    location: "Baja logics, Tijuana, Mexico",
+    location: "Baja Logics, Tijuana, Mexico",
     description:
-      `I worked as a web developer working in a company call Foxconn. 
-      Features for a manufacturing system to show production, personal assistance.`,
+      "Developed REST APIs using ASP.NET Core and C# to deliver KPI metrics such as efficiency and material quality. Created stored procedures in OracleDB and implemented backend logic using layered architecture.",
     icon: React.createElement(CgWorkAlt),
-    date: "2018",
+    date: "Aug 2018 - Nov 2018",
   },
   {
-    title: "Web developer",
+    title: "Web Developer",
     location: "Global Hawk Insurance, Tijuana, Mexico",
     description:
-      `Working with asp.net creating, maintaining and supporting web APIs, using the repository pattern, layer arquitecture and entity
-      framework for accounting modules, quotes and policies.`,
+      "Built REST APIs using ASP.NET Core and C# for vehicle policy tracking. Developed front-end features with Angular and React js. Deployed applications on Azure App Services integrating Azure SQL Server, Blob Storage and Key Vault.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jan 2019 - Nov 2021",
   },
   {
     title: "Full Stack Developer",
-    location: "Definity first, Tijuana, Mexico",
+    location: "Definity First, Tijuana, Mexico",
     description:
-      `Update and support existing Angular applications by handling responsive designs and deployment of spa applications using AWS services such as S3, CloudFront and CloudWatch for monitoring. 
-       Creation and update of lambdas using node.js with typescript for application consumption and using terraform for configuration and setting of environment variables.
-       Update and support for node.js microservices with typescript. Create microservices with .Net core using Layer architecture and CQRS with Dapper as ORM. 
-       Creating and updating pipelines using ADO's Pipelines and Repos services.
-       Creation of solution proposals for development requirements.`,
+      "Developed loan management and payment tracking applications using .NET Core, C#, React js and Angular. Built microservices with Node.js, ASP.NET Core and Python following CQRS. Deployed AWS Lambdas via Terraform and implemented CI/CD pipelines with Azure DevOps.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - Present",
+    date: "Feb 2022 - Jun 2024",
+  },
+  {
+    title: "Senior Software Developer",
+    location: "FPT Software, Tijuana, Mexico",
+    description:
+      "Built and maintained REST APIs with ASP.NET Core and C#. Developed Angular UI components for hospital patient questionnaire reports. Provisioned AWS infrastructure (S3, Cognito, Lambda, DynamoDB) using AWS CDK. Maintained code quality with NUnit, SonarCloud and GitHub Actions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jul 2024 - Jan 2025",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "Inteligente.IO, Tijuana, Mexico",
+    description:
+      "Migrating modules from a legacy system using React js with Redux-Saga and feature-based architecture. Updating Go API endpoints with clean architecture and GORM. Raising code coverage with Jest and Selenium e2e tests. Implementing CI/CD through GitHub Actions.",
+    icon: React.createElement(FaReact),
+    date: "Apr 2025 - Present",
   },
 ] as const;
 
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
-  "JQquery",
+  "React js",
   "Angular",
-  "React",
+  "Redux-Saga",
   "Next.js",
   "Node.js",
-  "Git",
-  "SourceTree",
-  "Tailwind",
-  "Bootstrap",
-  "Express",
-  "Framer Motion",
-  "Zustand",
-  "Knex",
-  "redis",
-  ".Net",
-  "Asp.Net core",
+  "Go",
+  "Python",
   "C#",
-  "Entity framwork",
-  "SignalR",
+  ".NET Core",
+  "ASP.NET Core",
+  "Blazor",
+  "Java",
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "PostgreSQL",
   "SQL Server",
   "Oracle",
+  "Entity Framework",
+  "Dapper",
+  "GORM",
+  "Knex",
+  "Azure",
   "AWS Services",
-  "Azure Dev Ops",
-  "Jira",
-  "Swagger",
-  "Postman",
-  "XUnit",
+  "Docker",
   "Kubernetes",
-  "Docker"
+  "Terraform",
+  "Azure DevOps",
+  "GitHub Actions",
+  "RabbitMQ",
+  "NUnit",
+  "Jest",
+  "Selenium",
+  "Playwright",
+  "SonarCloud",
+  "Postman",
+  "Swagger",
+  "Jira",
+  "Git",
+  "SignalR",
+  "GraphQL",
 ] as const;
